@@ -1,0 +1,11 @@
+<div class="movies justify-content-center">
+  <div *ngFor="let movie of movies" class="container-movie border-dark border rounded">
+    <div style="width: 200; height:300">
+      <img class="img-fluid" src={{movie.image}} alt="">
+    </div>
+    <p class="m-0">{{movie.title}}</p>
+    <small>{{movie.price}}</small>
+    <small>{{movie.genre}}</small>
+  </div>
+
+</div>

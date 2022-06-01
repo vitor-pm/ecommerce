@@ -1,0 +1,14 @@
+.container-movie{
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(118, 118, 105, 0.312);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.movies{
+  display: flex;
+  flex-wrap: wrap;
+}
